@@ -48,14 +48,15 @@ npm run deploy
 ####  Steps:        ####
 ########################
 
-git remote set-url origin git@github.com:mohammdsobbahi2001/askmedgraph-react-main.git
-ssh -T git@github.com
+- git remote set-url origin git@github.com:mohammdsobbahi2001/askmedgraph-react-main.git
 
-git add .
-git commit -m "deploy setup"
-git push origin main
+- ssh -T git@github.com
 
-npm run deploy
+- git add .
+- git commit -m "deploy setup"
+- git push origin main
+
+- npm run deploy
 
 ########################
 
