@@ -2,7 +2,7 @@
   "name": "askmedgraph-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://mohammdsobbahi2001.github.io/askmedgraph-react/",
+  "homepage": "https://mohammdsobbahi2001.github.io/askmedgraph-react-main/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
@@ -20,7 +20,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build -b gh-pages -r git@github.com:mohammdsobbahi2001/askmedgraph-react.git -f"
+    "deploy": "gh-pages -d build -b gh-pages -r git@github.com:mohammdsobbahi2001/askmedgraph-react-main.git -f"
   },
   "eslintConfig": {
     "extends": [
