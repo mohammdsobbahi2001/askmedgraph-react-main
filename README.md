@@ -1,6 +1,6 @@
 Deploy:
 
-git remote set-url origin https://mohammdsobbahi2001@github.com/mohammdsobbahi2001/askmedgraph-react.git
+git remote set-url origin https://mohammdsobbahi2001@github.com/mohammdsobbahi2001/askmedgraph-react-main.git
 git config --global credential.helper store
 git push origin main
 
@@ -11,7 +11,7 @@ host=github.com
 protocol=https
 [press Enter twice]
 
-git remote set-url origin https://mohammdsobbahi2001@github.com/mohammdsobbahi2001/askmedgraph-react.git
+git remote set-url origin https://mohammdsobbahi2001@github.com/mohammdsobbahi2001/askmedgraph-react-main.git
 
 
 git push origin main
@@ -22,7 +22,7 @@ password: github_pat_11ASJZ3BY0hR9HRF0MrrC9_JkzpGsVUnMMC52adIFePNvTWZSpLSu6AUFgX
 
 
 
-git remote set-url origin git@github.com:mohammdsobbahi2001/askmedgraph-react.git
+git remote set-url origin git@github.com:mohammdsobbahi2001/askmedgraph-react-main.git
 
 ssh -T git@github.com
 git push origin main
@@ -32,8 +32,8 @@ npm install --save-dev gh-pages
 
 
 
-git remote set-url origin git@github.com:mohammdsobbahi2001/askmedgraph-react.git
-npx gh-pages -d build -b gh-pages -r git@github.com:mohammdsobbahi2001/askmedgraph-react.git -f
+git remote set-url origin git@github.com:mohammdsobbahi2001/askmedgraph-react-main.git
+npx gh-pages -d build -b gh-pages -r git@github.com:mohammdsobbahi2001/askmedgraph-react-main.git -f
 
 
 
@@ -44,7 +44,20 @@ npm start
 npm install --save-dev gh-pages
 npm run deploy
 
+########################
+####  Steps:        ####
+########################
 
+git remote set-url origin git@github.com:mohammdsobbahi2001/askmedgraph-react-main.git
+ssh -T git@github.com
+
+git add .
+git commit -m "deploy setup"
+git push origin main
+
+npm run deploy
+
+########################
 
 # AskMedGraph - Healthcare Knowledge Graph Q&A
 
