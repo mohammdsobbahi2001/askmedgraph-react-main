@@ -1,8 +1,8 @@
 // src/constants.jsx
 
 // Base API URL
-// export const API_BASE_URL = 'https://medical-kg-api-production.up.railway.app/api/search';
-export const API_BASE_URL = 'http://127.0.0.1:5000/api/search';
+export const API_BASE_URL = 'https://medical-kg-api-production.up.railway.app/api/search';
+// export const API_BASE_URL = 'http://127.0.0.1:5000/api/search';
 
 // Language Models
 export const GPT_4O_MINI = "GPT-4o-mini";
