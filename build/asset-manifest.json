@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/askmedgraph-react/static/css/main.8ad653cd.css",
+    "main.js": "/askmedgraph-react/static/js/main.d587beba.js",
+    "index.html": "/askmedgraph-react/index.html",
+    "main.8ad653cd.css.map": "/askmedgraph-react/static/css/main.8ad653cd.css.map",
+    "main.d587beba.js.map": "/askmedgraph-react/static/js/main.d587beba.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8ad653cd.css",
+    "static/js/main.d587beba.js"
+  ]
+}
