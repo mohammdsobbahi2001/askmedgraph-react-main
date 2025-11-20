@@ -23,16 +23,19 @@ export const SQL_SERVER = "SQL Server";
 
 export const DATA_SOURCES = [
   KNOWLEDGE_GRAPH,
-  SQL_SERVER
+ //, SQL_SERVER
 ];
 
 export const SAMPLE_QUESTIONS = [
-  "What is the age of patient with MRN '72'?",
-  "What's the most common admission month?",
-  "What percentage of patients are female?",
-  "List patients with increasing creatinine levels across multiple tests."
+//   "What is the age of patient with MRN '72'?",
+//   "What's the most common admission month?",
+//   "What percentage of patients are female?",
+//   "List patients with increasing creatinine levels across multiple tests."
+    "How many admissions does patient 'الاسم945' have and what are their dates?",
+    "What diagnoses does patient 'الاسم13' have across all admissions?",
+    "What insurance coverage does patient 'الاسم1614' have and what's their status?",
+    "What are the total billing costs for patient 'الاسم1614' in USD and LBP?"
 ];
-
 
 
 // answer, timestamp, processingTime, insights
